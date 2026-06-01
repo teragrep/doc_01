@@ -1,12 +1,56 @@
-# doc_01
+image::https://avatars.githubusercontent.com/u/71876378?s=200&v=4[Teragrep Logo]
+
+= doc_01 – Documentation for Teragrep
 
 The official documentation for Teragrep, accessed on https://docs.teragrep.com[docs.teragrep.com].
 
-## Features
+== Features
 
-TBA 
+The documentation website is generated with https://github.com/asciidoctor[Asciidoctor] and https://antora.org/[Antora]. The website's layout is based on https://gitlab.com/antora/antora-ui-default[Antora Default UI] which is licensed under https://www.mozilla.org/en-US/MPL/2.0/[the MPL-2.0 license].
 
-## Contributing
+Covered or planned topics: 
+
+* Data Processing Language (DPL) commands
+* How to use Teragrep user interface
+* Teragrep Design System
+
+Technical documentation for Teragrep components can be found in their corresponding repository on GitHub. View the full list of Teragrep components in https://github.com/teragrep/teragrep[Teragrep portal repository].
+
+== How to Get Started
+
+NOTE: To be announced
+
+== How to Edit
+
+You need at least a code editor (e.g. Visual Studio Code or WebStorm) for editing the documentation content. https://plugins.jetbrains.com/plugin/7391-asciidoc[The AsciiDoc plugin] is recommended but not mandatory.
+
+The documentation is written with AsciiDoc language which resembles Markdown. Read https://docs.asciidoctor.org/asciidoc/latest/[Asciidoctor's documentation] about how to use AsciiDoc syntax correctly. 
+
+The documentation content is located in `/src/docs` directory. 
+
+|===
+|Directory |Path |Purpose
+
+|Attachments
+|`/src/docs/.../modules/ROOT/attachments`
+|Directory for attachemnts like ZIP archives and PDF files. Read more about https://docs.antora.org/antora/latest/page/attachments/[attachments].
+
+|Images
+|`/src/docs/.../modules/ROOT/images`
+|Directory for images
+
+|Pages
+|`/src/docs/.../modules/ROOT/pages`
+|Directory for documentation pages. Read more about https://docs.antora.org/antora/latest/page/standard-page/[how to set up a standard page].
+|===
+
+The left side navbar is manually maintained by updating the `nav.adoc` file. Read more about https://docs.antora.org/antora/latest/navigation/files-and-lists/[how to update link lists in the navigation file].
+
+== How to Deploy
+
+NOTE: To be announced
+
+== Contributing
 
 You can involve yourself with our project by https://github.com/teragrep/doc_01/issues/new/choose[opening an issue] or submitting a pull request. 
 
@@ -19,7 +63,7 @@ Contribution requirements:
 
 Read more in our https://github.com/teragrep/teragrep/blob/main/contributing.adoc[Contributing Guideline].
 
-### Contributor License Agreement
+=== Contributor License Agreement
 
 Contributors must sign https://github.com/teragrep/teragrep/blob/main/cla.adoc[Teragrep Contributor License Agreement] before a pull request is accepted to organization's repositories. 
 
